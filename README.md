@@ -1,5 +1,32 @@
-# BUILDET
-a website where clients can uploade an project and where other builder companyies can accept it. So its a connection with companies and clients
+# BUILDET - Builder Marketplace Platform
+
+A modern web platform connecting construction clients with professional builder companies.
+
+## 📋 Project Overview
+
+BUILDET is a marketplace where:
+- **Clients** can upload their construction/building projects
+- **Builder Companies** can browse projects and submit proposals/accept contracts
+- Both parties can communicate and manage projects efficiently
+
+## 🛠️ Tech Stack
+
+### Backend
+- **Framework**: Express.js (Node.js)
+- **Database**: MongoDB with Mongoose ODM
+- **Authentication**: JWT (JSON Web Tokens) + bcryptjs
+- **File Uploads**: Multer
+- **API**: RESTful API with CORS support
+
+### Frontend
+- React-based client (in `/client` directory)
+
+### Development
+- Nodemon for hot-reload during development
+
+## 📦 Dependencies
+
+```json
 {
   "name": "buildet",
   "version": "1.0.0",
